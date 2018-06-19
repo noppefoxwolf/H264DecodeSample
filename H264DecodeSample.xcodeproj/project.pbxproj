@@ -12,6 +12,8 @@
 		D768EF3E20D96583008A802B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D768EF3C20D96583008A802B /* Main.storyboard */; };
 		D768EF4020D96584008A802B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D768EF3F20D96584008A802B /* Assets.xcassets */; };
 		D768EF4320D96584008A802B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D768EF4120D96584008A802B /* LaunchScreen.storyboard */; };
+		D768EF4B20D965F7008A802B /* sample.h264 in Resources */ = {isa = PBXBuildFile; fileRef = D768EF4A20D965F7008A802B /* sample.h264 */; };
+		D768EF4D20D99438008A802B /* sample2.h264 in Resources */ = {isa = PBXBuildFile; fileRef = D768EF4C20D99438008A802B /* sample2.h264 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D768EF3F20D96584008A802B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D768EF4220D96584008A802B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D768EF4420D96584008A802B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D768EF4A20D965F7008A802B /* sample.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.h264; sourceTree = "<group>"; };
+		D768EF4C20D99438008A802B /* sample2.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample2.h264; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		D768EF3720D96583008A802B /* H264DecodeSample */ = {
 			isa = PBXGroup;
 			children = (
+				D768EF4C20D99438008A802B /* sample2.h264 */,
+				D768EF4A20D965F7008A802B /* sample.h264 */,
 				D768EF3820D96583008A802B /* AppDelegate.swift */,
 				D768EF3A20D96583008A802B /* ViewController.swift */,
 				D768EF3C20D96583008A802B /* Main.storyboard */,
@@ -123,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D768EF4320D96584008A802B /* LaunchScreen.storyboard in Resources */,
+				D768EF4B20D965F7008A802B /* sample.h264 in Resources */,
+				D768EF4D20D99438008A802B /* sample2.h264 in Resources */,
 				D768EF4020D96584008A802B /* Assets.xcassets in Resources */,
 				D768EF3E20D96583008A802B /* Main.storyboard in Resources */,
 			);
